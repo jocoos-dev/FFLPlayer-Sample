@@ -3,10 +3,14 @@
 이 샘플은 Multi DRM으로 패키징된 HLS, DASH 영상을 어떻게 실행하는지 보여주는 샘플파일입니다.
 FFL-Player는 웹에서만 지원되면 아래 두가지 경우에 따라 다르게 설정됩니다.
 
+<br/><br/>
+
 ## FlipFlop 외부 비디오 재생
 
 외부 비디오 재생의 경우 기본적으로 video.js libaray 사용법과 크게 다르지 않습니다.
-videojs-sample.js를 따라 이용해 주시기 바랍니다.
+[videojs-sample.js](https://github.com/jocoos-dev/FFLPlayer-Sample/blob/main/js/videojs-sample.js)를 따라 이용해 주시기 바랍니다.
+
+<br/><br/>
 
 ## 내부 비디오 재생 (준비중)
 
