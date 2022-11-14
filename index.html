@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VideoJS Jocoos Multi-DRM Sample</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/scrolldown.css" />
+
+    <!-- VideoJS library and css -->
+    <script type="module" src="js/index.js"></script>
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+    <script src="https://unpkg.com/videojs-contrib-dash/dist/videojs-dash.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Jocoos - VideoJS Sample</h1>
+      <p>
+        This sample shows how to play streaming content (DASH or HLS) protected by multi-DRM (PlayReady, Widevine,
+        FairPlay Streaming) using VideoJS player. Please check the Jocoos and VideoJS Docs sites for more information.
+      </p>
+      <p>
+        <a href="https://docs.videojs.com/index.html" target="_blank"><b>Visit VideoJS docs &nearr;</b></a>
+      </p>
+      <!-- Scroll down indicator CSS animation -->
+      <div class="container">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+      </div>
+    </header>
+    <main>
+      <hr />
+      <code id="browserCheckResult"></code>
+      <p>
+        <video
+          id="my-player"
+          class="video-js vjs-default-skin vjs-16-9"
+          autoplay
+          muted
+          playsinline
+          controls
+          data-setup="{}"
+        ></video>
+      </p>
+    </main>
+    <footer>
+      <p align="center">Copyright 2022 <a href="https://jocoos.com/" target="_blank">Jocoos</a></p>
+    </footer>
+  </body>
+
+  <script defer type="text/javascript" src="js/videojs-sample.js"></script>
+</html>
